@@ -1,0 +1,5 @@
+Câu 4: onPause - onStop - onDestroy - onCreate - onStart - onResume
+Câu 5: onPause - onStop - onRestart - onStart - onResume
+Câu 6: Nếu cần lưu thông tin của ứng dụng để khôi phục lại trạng thái hiển thị của ứng dụng
+       khi chạy lại ứng dụng thì cần phải thực hiện trong phương thức vòng đời onResume.
+       Vì mỗi khi nhấn tạm dừng hoặc thoát khỏi ứng dụng và mở lại thì sẽ luôn trả về phương thức onResume.
